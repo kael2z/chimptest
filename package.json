@@ -1,0 +1,24 @@
+{
+  "name": "chimptest",
+  "version": "1.0.0",
+  "description": "a Chimp-driven Jasmine UI tests with Allure reporting",
+  "main": "index.js",
+  "scripts": {
+    "test": "chimp config/chimp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kael2z/chimptest.git"
+  },
+  "author": "Daniil Blagov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kael2z/chimptest/issues"
+  },
+  "homepage": "https://github.com/kael2z/chimptest#readme",
+  "dependencies": {
+    "chimp": "^0.45.1",
+    "jasmine-allure-reporter": "^1.0.1",
+    "webdriverio": "^4.5.2"
+  }
+}
